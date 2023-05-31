@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Json Examples</title>
+    </head>
+    <body>
+        <script>
+            let func_one=(param1="Hello")=>{
+                document.write(param1,`<br>`);
+            }
+            func_one();
+            func_one(`Welcome`);
+            func_one(`Undefined`);
+            func_one(null);
+        </script>
+    </body>
+</html>
